@@ -64,11 +64,11 @@ Response:
 
 {
 
-`     		`"code": "public static void ...",
+"code": "public static void ...",
 
-`    		`"date": "2020/05/05 12:00:43",
+"date": "2020/05/05 12:00:43",
 
-`    		`"time": 0,
+"time": 0,
 
 "views": 0
 
