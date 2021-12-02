@@ -1,0 +1,73 @@
+POST examples:
+
+POST /api/code/new
+
+{
+
+&quot;code&quot;: &quot;class Code { ...&quot;,
+
+&quot;time&quot;: 0,
+
+&quot;views&quot;: 0
+
+}
+
+{
+
+&quot;code&quot;: &quot;Secret code&quot;,
+
+&quot;time&quot;: 5000,
+
+&quot;views&quot;: 5
+
+}
+
+GET examples:
+
+GET /api/code/2187c46e-03ba-4b3a-828b-963466ea348c
+
+GET /code/2187c46e-03ba-4b3a-828b-963466ea348c
+
+{
+
+&quot;code&quot;: &quot;Secret code&quot;,
+
+&quot;date&quot;: &quot;2020/05/05 12:01:45&quot;,
+
+&quot;time&quot;: 4995,
+
+&quot;views&quot;: 4
+
+}
+
+GET /api/code/latest
+
+GET /code/latest
+
+[
+
+{
+
+&quot;code&quot;: &quot;public static void ...&quot;,
+
+&quot;date&quot;: &quot;2020/05/05 12:00:43&quot;,
+
+&quot;time&quot;: 0,
+
+&quot;views&quot;: 0
+
+},
+
+{
+
+&quot;code&quot;: &quot;class Code { ...&quot;,
+
+&quot;date&quot;: &quot;2020/05/05 11:59:12&quot;,
+
+&quot;time&quot;: 0,
+
+&quot;views&quot;: 0
+
+}
+
+]
