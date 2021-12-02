@@ -6,11 +6,11 @@ Body:
 
 {
 
-"code": "class Code { ...",
+  "code": "class Code { ...",
 
-"time": 0,
+  "time": 0,
 
-"views": 0
+  "views": 0
 
 }
 
@@ -18,11 +18,11 @@ Or:
 
 {
 
-"code": "class Code2 { ...",
+  "code": "class Code2 { ...",
 
-"time": 100,
+  "time": 100,
 
-"views": 10
+  "views": 10
 
 }
 
@@ -42,13 +42,13 @@ Response:
 
 {
 
-"code": "Secret code",
+  "code": "Secret code",
 
-"date": "2020/05/05 12:01:45",
+  "date": "2020/05/05 12:01:45",
 
-"time": 95,
+  "time": 95,
 
-"views": 9
+  "views": 9
 
 }
 
@@ -64,25 +64,25 @@ Response:
 
 {
 
-"code": "public static void ...",
+  "code": "public static void ...",
 
-"date": "2020/05/05 12:00:43",
+  "date": "2020/05/05 12:00:43",
 
-"time": 0,
+  "time": 0,
 
-"views": 0
+  "views": 0
 
 },
 
 {
 
-"code": "class Code { ...",
+  "code": "class Code { ...",
 
-"date": "2020/05/05 11:59:12",
+  "date": "2020/05/05 11:59:12",
 
-"time": 0,
+  "time": 0,
 
-"views": 0
+  "views": 0
 
 }
 
